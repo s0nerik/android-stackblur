@@ -6,13 +6,8 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion '21.0.0'
-
-    defaultConfig {
-        renderscriptTargetApi 19
-        renderscriptSupportMode true
-    }
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
 
     sourceSets {
         main {
